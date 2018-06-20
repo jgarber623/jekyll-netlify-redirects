@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in svgeez.gemspec
+# Specify your gem's dependencies in jekyll-netlify-redirects.gemspec
 gemspec
