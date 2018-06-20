@@ -1,9 +1,13 @@
 # jekyll-netlify-redirects
 
-**A Ruby gem for generating a Netlify redirects configuration from a Jekyll configuration.**
+**A Ruby gem for generating a [Netlify](https://www.netlify.com) redirects configuration from a [Jekyll](https://jekyllrb.com) configuration.**
 
 [![Gem](https://img.shields.io/gem/v/jekyll-netlify-redirects.svg?style=for-the-badge)](https://rubygems.org/gems/jekyll-netlify-redirects)
 [![Downloads](https://img.shields.io/gem/dt/jekyll-netlify-redirects.svg?style=for-the-badge)](https://rubygems.org/gems/jekyll-netlify-redirects)
+
+Netlify's URL redirection and rewriting rules are _quite_ powerful. Netlify provides two two options for configuring your Netlify-deployed website's rules: either in [a `netlify.toml` file](https://www.netlify.com/docs/netlify-toml-reference/) or in [a `_redirects` file](https://www.netlify.com/docs/redirects/).
+
+Both file formats are perfectly serviceable, but if you're anything like me, you prefer fewer configuration files cluttering up your project. jekyll-netlify-redirects allows you to configure your Netlify-deployed website's URL redirection and rewriting rules using your project's existing Jekyll configuration file.
 
 ## Getting Started
 
