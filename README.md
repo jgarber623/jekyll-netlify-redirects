@@ -4,6 +4,7 @@
 
 [![Gem](https://img.shields.io/gem/v/jekyll-netlify-redirects.svg?style=for-the-badge)](https://rubygems.org/gems/jekyll-netlify-redirects)
 [![Downloads](https://img.shields.io/gem/dt/jekyll-netlify-redirects.svg?style=for-the-badge)](https://rubygems.org/gems/jekyll-netlify-redirects)
+[![Dependencies](https://img.shields.io/depfu/jgarber623/jekyll-netlify-redirects.svg?style=for-the-badge)](https://depfu.com/github/jgarber623/jekyll-netlify-redirects)
 
 Netlify's URL redirection and rewriting rules are _quite_ powerful. Netlify provides two options for configuring your Netlify-deployed website's rules: either in [a `netlify.toml` file](https://www.netlify.com/docs/netlify-toml-reference/) or in [a `_redirects` file](https://www.netlify.com/docs/redirects/).
 
